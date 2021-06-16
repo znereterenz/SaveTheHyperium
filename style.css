@@ -1,0 +1,51 @@
+body {
+  background-image: url("https://images.pexels.com/photos/262685/pexels-photo-262685.jpeg");
+  background-size: cover;
+  background-repeat: auto;
+}
+h1 {
+  color: white;
+  text-align: center;
+}
+h3 {
+  color: white;
+  text-align: center;
+}
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  border: solid white 5px;
+  width: 300px;
+  height: 300px;
+  background-image: url("https://miro.medium.com/max/1200/1*9IIoxOcIbhMFFKMCI2ncuQ.jpeg");
+  background-size: 300px 300px;
+  filter: drop-shadow(0 0 0.75rem black);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.grid div {
+  width: 20px;
+  height: 20px;
+}
+
+.invader {
+  background-color: green;
+  border-radius: 10px;
+}
+
+.shooter {
+  background-image: url(spaceship.png);
+  background-size: 20px 20px;
+  border-radius: 10px;
+  height: 20px;
+  width: 20px;
+
+}
+.boom {
+  background-color: red;
+}
+
+.laser {
+  background-color: orange;
+}
